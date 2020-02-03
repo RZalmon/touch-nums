@@ -1,0 +1,20 @@
+
+body {
+    background-color: azure;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.timer{
+    font-family: monospace;
+    font-size: 90px;
+    font-weight: 200;
+}
+button{
+    width: 100px;
+    height: 30px;
+    margin: 3%;
+}
+button:hover{
+    cursor: pointer;
+}

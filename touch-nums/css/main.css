@@ -1,0 +1,88 @@
+body {
+    background-image: url(../img/wallpaper.jpg);
+    text-align: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.header {
+    font-size: 46px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+button {
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    border-bottom: solid 2px #7b7b7b;
+    border-right: solid 2px #7b7b7b;
+    border-top: solid 2px #fff;
+    border-left: solid 2px #fff;
+    border-radius: 50px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+td {
+    background-color: rgb(62, 224, 207, 0.9);
+    height: 40px;
+    width: 40px;
+    transition: .3s;
+    border: 1px solid black;
+    border-radius: 50px;
+    font-family: fantasy;
+}
+
+td:hover {
+    background-color: rgb(26, 94, 87);
+    color: white;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: rgba(128, 128, 128, 0.5);
+    color: grey
+}
+
+.clicked:hover {
+    cursor: no-drop;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: grey
+}
+
+.timer {
+    font-family: monospace;
+    font-size: 40px;
+    font-weight: 200;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: black;
+}
+
+.winner-modal {
+    font-family: fantasy;
+    font-weight: bold;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+    display: none;
+}
+
+.next-number {
+    font-family: fantasy;
+    font-weight: bold;
+    color: black;
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
+}
